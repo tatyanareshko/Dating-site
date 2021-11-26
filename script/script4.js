@@ -34,19 +34,6 @@ const getProfile = async (id) => {
     return res;
 }
 
-/* 
-const sayHello = () => {
-    let greedBtn = document.querySelector('.greed_btn');
-    greedBtn.addEventListener('click', (event) => {
-
-        if (event.target.tagName === 'A') {
-            alert(`ВАШЕ ПРИВЕТСТВИЕ ОТПРАВЛЕНО.`);
-        }
-
-    })
-
-} */
-
 const sayHello = () => {
     let button = document.querySelector('.greed_btn');
 
@@ -67,9 +54,6 @@ const sayHello = () => {
     })
 
 }
-
-
-
 
 const renderProfile = async () => {
     const id = window.location.search.split('?profile=')[1];

@@ -616,7 +616,6 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    /* justify-content: center; */
     padding-top: 50px;
     justify-items: center;
     text-align: center;
@@ -700,7 +699,6 @@ body {
   .mainBack .mainContentPage .allPhotos #top {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    text-align: center;
   }
   .mainBack .mainContentPage .allPhotos #top {
     position: unset;

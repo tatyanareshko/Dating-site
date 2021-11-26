@@ -101,23 +101,7 @@ const createAccountData = (event) => {
     const userMonthDOB = document.querySelector('#monthDOB').value;
     const userYearDOB = document.querySelector('.yearDOB').value;
 
-    /* const sexType = document.querySelector('.gender').addEventListener('click', (event) => {
-        event.preventDefault();
-        if (event.target.id === 'manGender') {
-            event.preventDefault();
-            const genderType = 1;
-            return genderType;
-        }
-        if (event.target.id === 'womanGender') {
-            event.preventDefault();
-            const genderType = 0;
-            return genderType;
-        }
-         return genderType; 
-        
-    }) */
-
-    if (!localStorage.getItem('accounts')) {
+      if (!localStorage.getItem('accounts')) {
         localStorage.setItem('accounts', JSON.stringify([]))
     }
 
@@ -128,7 +112,7 @@ const createAccountData = (event) => {
         dayDOB: userDateDOB,
         monthDOB: userMonthDOB,
         yearDOB: userYearDOB,
-        /* sexType: sexType */
+        
     };
 
     let currentAccounts = JSON.parse(localStorage.getItem('accounts'));

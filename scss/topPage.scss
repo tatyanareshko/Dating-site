@@ -422,8 +422,6 @@ body {
     filter: blur(3px);
 }
 
-
-
 @media screen and (max-width: 1439.98px) {
     .center {
         width: 90%;
@@ -490,7 +488,6 @@ body {
         opacity: 0;
         background: rgba(0, 0, 0, 0.8);
         flex-direction: column;
-        /* justify-content: center; */
         padding-top: 50px;
         justify-items: center;
         text-align: center;
@@ -507,7 +504,7 @@ body {
     .mainBack .infoHeader .list-menu li {
         margin-bottom: 20px;
     }
-    .mainBack .infoHeader .list-menu li:first-child{
+    .mainBack .infoHeader .list-menu li:first-child {
         margin-bottom: 15px;
     }
     .mainBack .infoHeader .show {
@@ -547,7 +544,6 @@ body {
     #close {
         right: 25px;
         top: 10px;
-       
     }
 
     .mainBack .mainContentPage {
@@ -569,7 +565,6 @@ body {
 @media screen and (max-width: 575.98px) {
     .mainBack .mainContentPage .allPhotos #top {
         grid-template-columns: 1fr;
-        text-align: center;
     }
     .mainBack .mainContentPage .allPhotos #top {
         position: unset;

@@ -1,5 +1,3 @@
-
-
 var btnOpenChangePassword = document.querySelector('.btn-forgot-password');
 
 const showModalChangePassword = () => {

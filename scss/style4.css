@@ -629,7 +629,64 @@ body {
   -ms-grid-column-align: center;
       justify-self: center;
 }
+.modal_hide {
+  display: none;
+  top: 150px;
+}
 
+.modal_open {
+  display: block;
+  top: 150px;
+}
+
+.greed_mes {
+  background: -webkit-gradient(linear, left top, right top, from(#ee0979), to(#ff6a00));
+  background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
+  text-align: center;
+  border-radius: 200px;
+  width: 50%;
+  position: absolute;
+  left: 28%;
+  top: 50%;
+}
+
+.greed_mes .message_hi .commonCol p {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #eeeeee;
+  padding: 30px;
+  margin-bottom: 0;
+}
+.developing {
+  background: -webkit-gradient(linear, left top, right top, from(#ee0979), to(#ff6a00));
+  background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
+  text-align: center;
+  border-radius: 200px;
+  width: 50%;
+  position: absolute;
+  left: 28%;
+  top: 50%;
+}
+
+.developing .dev-work .commonColDev p {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #eeeeee;
+  padding: 30px;
+  margin-bottom: 0;
+}
+
+.add-opacity {
+  background: #1d0b23;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+}
 @media screen and (max-width: 1439.98px) {
   .center {
     width: 90%;
@@ -858,7 +915,10 @@ body {
     padding-bottom: 10px;
   }
   .mainBack .leftImg .profileInformation .leftPoitionPhoto .mainPhotoUser .info_user_common {
-    top: 410px;
+    top: 460px;
+  }
+  .mainBack .leftImg .profileInformation .leftPoitionPhoto .mainPhotoUser img{
+    min-width: 290px;
   }
 }
 /*# sourceMappingURL=style4.css.map */

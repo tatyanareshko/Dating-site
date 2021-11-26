@@ -24,8 +24,6 @@ body {
     margin: 0 auto;
 }
 
-
-
 .wrap-preloader {
     position: absolute;
     /* display: none; */
@@ -43,10 +41,10 @@ body {
 .preloader-show {
     display: none;
 }
-.loaded_hiding  {
+.loaded_hiding {
     transition: 0.3s opacity;
     opacity: 0;
-  }
+}
 
 @mixin Rubik-medium($font-size-set) {
     font-family: "Rubik", sans-serif;
@@ -270,7 +268,7 @@ body {
                 margin-right: 50px;
                 .mainPhotoUser {
                     display: relative;
-                    
+
                     img {
                         max-width: 380px;
                         margin-bottom: 10px;
@@ -507,6 +505,25 @@ body {
     background: #1d0b23;
     filter: blur(3px);
 }
+.developing {
+    background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
+    text-align: center;
+    border-radius: 200px;
+    width: 50%;
+    position: absolute;
+    left: 28%;
+    top: 50%;
+    .dev-work {
+        .commonColDev {
+            p {
+                @include Rubik-regular(20px);
+                color: #eeeeee;
+                padding: 30px;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
 
 @media screen and (max-width: 1439.98px) {
     .center {
@@ -560,15 +577,11 @@ body {
     }
 }
 
-@media screen and (max-width: 1023.98px) {
-}
-
 @media screen and (max-width: 991.98px) {
     .mainBack .infoHeader .list-menu {
         opacity: 0;
         background: rgba(0, 0, 0, 0.8);
         flex-direction: column;
-        /* justify-content: center; */
         padding-top: 50px;
         justify-items: center;
         text-align: center;
@@ -579,10 +592,14 @@ body {
         width: 105%;
         left: -105%;
         transition: 1s ease-in-out;
+        
     }
 
     .mainBack .infoHeader .list-menu li {
         margin-bottom: 20px;
+    }
+    .mainBack .infoHeader .list-menu li:first-child {
+        margin-bottom: 15px;
     }
     .mainBack .infoHeader .show {
         display: flex;
@@ -717,6 +734,9 @@ body {
         padding-bottom: 10px;
     }
     .mainBack .leftImg .profileInformation .leftPoitionPhoto .mainPhotoUser .info_user_common {
-        top: 410px;
+        top: 460px;
+    }
+    .mainBack .leftImg .profileInformation .leftPoitionPhoto .mainPhotoUser img {
+        min-width: 290px;
     }
 }

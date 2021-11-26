@@ -73,8 +73,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 100%;
   margin: auto;
 }
@@ -129,7 +129,7 @@ body {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 2fr 3fr;
-      grid-template-columns: 1fr 2fr 3fr;
+  grid-template-columns: 1fr 2fr 3fr;
   padding-bottom: 30px;
 }
 
@@ -161,8 +161,8 @@ body {
 
 .mainBack .infoHeader .address a span {
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
 }
 
 .mainBack .infoHeader .list-menu {
@@ -173,8 +173,8 @@ body {
   margin-right: 20px;
   margin-left: 20px;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .mainBack .infoHeader .list-menu li {
@@ -266,7 +266,7 @@ body {
   position: absolute;
   left: 0;
   -webkit-box-shadow: #e6e6e6 0px 1px 4px;
-          box-shadow: #e6e6e6 0px 1px 4px;
+  box-shadow: #e6e6e6 0px 1px 4px;
   border: 1px solid #e6e6e6;
   background-color: #2a1133;
   z-index: 10;
@@ -337,8 +337,8 @@ body {
   background: -webkit-gradient(linear, left top, right top, from(#ee0979), to(#ff6a00));
   background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   border-radius: 50%;
   color: #fff;
   padding: 5px;
@@ -391,7 +391,7 @@ body {
 
 .mainBack .mainContentPage .allPhotos #top .card_user img {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 30px;
 }
 
@@ -450,7 +450,7 @@ body {
 
 .mainBack .mainContentPage .allPhotos #top .card_user .info_user_common .greed_btn a img {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   margin-left: 10px;
 }
 
@@ -489,7 +489,7 @@ body {
 
 .mainBack .womanPage .allPhotosWoman #woman_page .card_user img {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 30px;
 }
 
@@ -548,7 +548,7 @@ body {
 
 .mainBack .womanPage .allPhotosWoman #woman_page .card_user .info_user_common .greed_btn a img {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   margin-left: 10px;
 }
 
@@ -586,7 +586,7 @@ body {
 
 .mainBack .manPage .allPhotosMan #man_page .card_user img {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 30px;
 }
 
@@ -645,7 +645,7 @@ body {
 
 .mainBack .manPage .allPhotosMan #man_page .card_user .info_user_common .greed_btn a img {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   margin-left: 10px;
 }
 
@@ -653,7 +653,7 @@ body {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr 1fr 2fr 4fr 1fr 2fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr 2fr 4fr 1fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 2fr 4fr 1fr 2fr;
   justify-items: start;
   padding-bottom: 20px;
   padding-left: 0;
@@ -687,12 +687,12 @@ body {
 
 .mainBack footer .footer-info li:last-child {
   -ms-grid-column-align: end;
-      justify-self: end;
+  justify-self: end;
 }
 
 .mainBack footer .footer-info li:nth-child(7) {
   -ms-grid-column-align: center;
-      justify-self: center;
+  justify-self: center;
 }
 
 .modal_hide {
@@ -727,10 +727,35 @@ body {
   margin-bottom: 0;
 }
 
+.developing {
+  background: -webkit-gradient(linear, left top, right top, from(#ee0979), to(#ff6a00));
+  background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
+  text-align: center;
+  border-radius: 200px;
+  width: 50%;
+  position: absolute;
+  left: 28%;
+  top: 50%;
+}
+
+.developing .dev-work .commonColDev p {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #eeeeee;
+  padding: 30px;
+  margin-bottom: 0;
+}
+
+
+
+
 .add-opacity {
   background: #1d0b23;
   -webkit-filter: blur(3px);
-          filter: blur(3px);
+  filter: blur(3px);
 }
 
 .wrap-preloader {
@@ -768,7 +793,7 @@ body {
 @media screen and (max-width: 1199.98px) {
   .mainBack footer .footer-info {
     -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     padding-bottom: 0;
   }
   .mainBack footer .footer-info {
@@ -776,14 +801,14 @@ body {
   }
   .mainBack footer .footer-info li:nth-child(5) {
     -ms-grid-column-align: end;
-        justify-self: end;
+    justify-self: end;
   }
   .mainBack footer .footer-info li:nth-child(6) {
     -ms-grid-column: 1;
     -ms-grid-column-span: 5;
     grid-column: 1 / span 5;
     -ms-grid-column-align: center;
-        justify-self: center;
+    justify-self: center;
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -792,7 +817,7 @@ body {
     -ms-grid-column-span: 5;
     grid-column: 1 / span 5;
     -ms-grid-column-align: center;
-        justify-self: center;
+    justify-self: center;
     margin-bottom: 10px;
   }
   .mainBack footer .footer-info li:nth-child(8) {
@@ -800,15 +825,15 @@ body {
     -ms-grid-column-span: 5;
     grid-column: 1 / span 5;
     -ms-grid-column-align: center;
-        justify-self: center;
+    justify-self: center;
   }
   .mainBack footer .footer-info li:nth-child(3) {
     -ms-grid-column-align: center;
-        justify-self: center;
+    justify-self: center;
   }
   .mainBack footer .footer-info li:nth-child(4) {
     -ms-grid-column-align: center;
-        justify-self: center;
+    justify-self: center;
   }
   .mainBack footer .footer-info li a {
     font-size: 12px;
@@ -824,16 +849,16 @@ body {
     background: rgba(0, 0, 0, 0.8);
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     /* justify-content: center; */
     padding-top: 50px;
     justify-items: center;
     text-align: center;
     padding-left: 0;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     position: fixed;
     top: -45px;
     width: 105%;
@@ -859,7 +884,7 @@ body {
   }
   .mainBack .infoHeader {
     -ms-grid-columns: 1fr 2fr;
-        grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 2fr;
   }
   .mainBack .infoHeader .add_info {
     margin-left: 20px;
@@ -895,10 +920,10 @@ body {
   .mainBack footer .footer-info {
     padding-left: 0px;
     -ms-grid-columns: 2fr 3fr 2fr 3fr 4fr;
-        grid-template-columns: 2fr 3fr 2fr 3fr 4fr;
+    grid-template-columns: 2fr 3fr 2fr 3fr 4fr;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
   .greed_mes .message_hi .commonCol p {
     font-size: 14px;
@@ -909,22 +934,32 @@ body {
   .mainBack .infoHeader .add_info .photo_user p {
     display: none;
   }
+  .mainBack .infoHeader .add_info .search-input #searchInput {
+    font-size: 14px;
+  }
+  .mainBack .infoHeader .add_info .search-input #searchInput {
+    width: 160px;
+  }
+  .mainBack .infoHeader {
+    grid-template-columns: 1fr 3fr;
+    overflow: hidden;
+  }
 }
 
 @media screen and (max-width: 374.98px) {
   .mainBack footer .footer-info {
     -ms-grid-columns: 2fr 2fr 2fr 2fr;
-        grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
   .mainBack footer .footer-info li:nth-child(5) {
     -ms-grid-column: 1;
     -ms-grid-column-span: 4;
     grid-column: 1 / span 4;
     -ms-grid-column-align: center;
-        justify-self: center;
+    justify-self: center;
     margin-top: 10px;
   }
   .mainBack footer .footer-info li:nth-child(6) {

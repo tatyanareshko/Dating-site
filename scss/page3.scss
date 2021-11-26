@@ -564,6 +564,27 @@ body {
     background: #1d0b23;
     filter: blur(3px);
 }
+.developing {
+    background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
+    text-align: center;
+    border-radius: 200px;
+    width: 50%;
+    position: absolute;
+    left: 28%;
+    top: 50%;
+    .dev-work {
+        .commonColDev {
+            p {
+                @include Rubik-regular(20px);
+                color: #eeeeee;
+                padding: 30px;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+
 
 .wrap-preloader {
     position: absolute;
@@ -722,6 +743,16 @@ body {
 @media screen and (max-width: 575.98px) {
     .mainBack .infoHeader .add_info .photo_user p {
         display: none;
+    }
+    .mainBack .infoHeader .add_info .search-input #searchInput{
+        font-size: 14px;
+    }
+    .mainBack .infoHeader .add_info .search-input #searchInput{
+        width: 160px;
+    }
+    .mainBack .infoHeader{
+        grid-template-columns: 1fr 3fr;
+        overflow: hidden;
     }
 }
 

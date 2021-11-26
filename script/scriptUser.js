@@ -107,10 +107,7 @@ const getData = () => {
         )
 
     new Swiper('.image-slider', {
-        /*  navigation: {
-             nextEl: '.swiper-button-next',
-             prevEl: '.swiper-button-prev'
-         }, */
+     
         slidesPerView: 4.5,
         watchOverflow: true,
         spaceBetween: 30,
@@ -142,10 +139,10 @@ const getData = () => {
                 slidesPerView: 1,
             },
             375: {
-                slidesPerView: 0.5,
+                slidesPerView: 1,
             },
             320: {
-                slidesPerView: 0.5,
+                slidesPerView: 1,
             }
         }
 
@@ -159,154 +156,3 @@ const getData = () => {
 getData();
 
 
-
-
-
-
-
-
-// POST
-/* const postData = () => {
-    const inputName = document.querySelector('#fName').value;
-    const inputAge = document.querySelector('#age').value;
-
-    fetch('http://localhost:3000/profile',
-        {
-            method: 'POST',
-            body: JSON.stringify(
-                {
-                    "name": inputName,
-                    "age": inputAge
-                }
-            ),
-            headers: {
-                "Content-type": "application/json; charset=utf-8"
-            }
-        }).then(
-            (response) => {
-                return response.json();
-            }
-        ).then(
-            (data) => {
-                console.log(data);
-            }
-        )
-}
-
-document.querySelector('#get_data').addEventListener('click', getData)
- */
-//postData();
-
-/* document.querySelector('#post_data').addEventListener('click', postData); */
-
-// PUT
-
-/* let currentId = 0;
-
-const getIdUser = (e) => {
-    const inputName = document.querySelector('#fName');
-    console.log(e.target.parentElement.dataset.id);
-    if (e.target.className === 'edit_info' || e.target.className === 'delete_info') {
-        inputName.focus();
-        return e.target.parentElement.dataset.id;
-    }
-}
-
-const putData = (curId) => {
-    const inputName = document.querySelector('#fName').value;
-    const inputAge = document.querySelector('#age').value;
-
-    fetch(`http://localhost:3000/profile/${curId}`,
-        {
-            method: 'PUT',
-            body: JSON.stringify(
-                {
-                    "name": inputName,
-                    "age": inputAge
-                }
-            ),
-            headers: {
-                "Content-type": "application/json; charset=utf-8"
-            }
-        }).then(
-            (response) => {
-                return response.json();
-            }
-        ).then(
-            (data) => {
-                console.log(data);
-            }
-        )
-} */
-
-//putData();
-
-
-/* document.addEventListener('click', (e) => {
-    if (e.target.className === 'edit_info') {
-        currentId = getIdUser(e);
-    }
-
-})
-
-
-document.querySelector('#put_data').addEventListener('click', () => {
-    putData(currentId);
-    getData();
-});
-
-// PATCH
-
-const patchData = (curId) => {
-    const inputName = document.querySelector('#fName').value;
-    const inputAge = document.querySelector('#age').value;
-    fetch(`http://localhost:3000/profile/${curId}`,
-        {
-            method: 'PATCH',
-            body: JSON.stringify(
-                {
-                    "name": inputName,
-
-                }
-
-            ),
-            headers: {
-                "Content-type": "application/json; charset=utf-8"
-            }
-        }).then(
-            (response) => {
-                return response.json();
-            }
-        ).then(
-            (data) => {
-                console.log(data);
-            }
-        )
-}
-
-
-document.querySelector('#patch_data').addEventListener('click', () => {
-    patchData(currentId);
-    getData();
-}); */
-
-
-/* document.querySelector('#patch_data').addEventListener('click', patchData); */
-
-//DELETE
-/*
-const deleteData = (curId) => {
-    fetch(`http://localhost:3000/profile/${curId}`,
-        {
-            method: 'DELETE'
-        })
-} */
-
-/* deleteData(); */
-
-/* document.addEventListener('click', (e) => {
-    if (e.target.className === 'delete_info') {
-        deleteData(e.target.parentElement.dataset.id)
-    }
-
-}) */

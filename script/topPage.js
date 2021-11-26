@@ -1,7 +1,7 @@
 const PROFILE_DATA = 'https://dating-site1.herokuapp.com/api/tutorials';
 
 const getData = () => {
-    fetch('https://dating-site1.herokuapp.com/api/tutorials')
+    fetch(PROFILE_DATA)
         .then(
             (req) => {
                 return req.json();
@@ -9,21 +9,14 @@ const getData = () => {
         )
         .then(
             (data) => {
-
                 let topUsers = document.querySelector('#top');
-
-               
-
                 topUsers.innerHTML = '';
-               
+                
                 //top Users
-
                 for (let i = 0; i < data.length; i++) {
                     if (data[i].type === "top") {
-
-
-
-                        topUsers.innerHTML += `
+                                            
+                            topUsers.innerHTML += `
                         <div class="card_user">
                             <a href="page4-profile.html?profile=${data[i].id}">
                                  <img src=${data[i].image}>
@@ -37,21 +30,22 @@ const getData = () => {
                         </div>
                     </div>
                 `
-
+                                                   
                     }
                 }
-
+               
             }
-
         )
         .catch(
             err => {
                 console.log(err);
             }
-
         )
+    setTimeout(sayHello, 1000);
 
-        setTimeout (sayHello, 1000);
- }
+}
 
 getData();
+
+
+
