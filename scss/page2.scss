@@ -433,8 +433,9 @@ body {
     }
 
     .mainBack .login_form .enter-name input {
-        /* padding: 23px 54px 23px 70px; */
+        padding: 23px 144px 23px 70px;
         max-width: 345px;
+
     }
 
     .mainBack .login_form .DOB {
@@ -507,6 +508,7 @@ body {
         grid-template-columns: 2fr 3fr 2fr 3fr 4fr;
         justify-content: space-between;
     }
+    
 }
 @media screen and (max-width: 575.98px) {
     .changePasswordPage .row .commonCol #modal-forgot-password .contentModal h2 {

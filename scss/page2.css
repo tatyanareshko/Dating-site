@@ -55,8 +55,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 100%;
   margin: auto;
 }
@@ -101,8 +101,10 @@ body {
 }
 
 .mainBack {
-  background: url(../images/page1/Vector.png) left bottom, url(../images/page1/Vector_right.png) right bottom, -webkit-gradient(linear, left top, left bottom, from(#2a1133), to(#381a42));
-  background: url(../images/page1/Vector.png) left bottom, url(../images/page1/Vector_right.png) right bottom, linear-gradient(180deg, #2a1133 0%, #381a42 100%);
+  background: url(../images/page1/Vector.png) left bottom, url(../images/page1/Vector_right.png) right bottom,
+    -webkit-gradient(linear, left top, left bottom, from(#2a1133), to(#381a42));
+  background: url(../images/page1/Vector.png) left bottom, url(../images/page1/Vector_right.png) right bottom,
+    linear-gradient(180deg, #2a1133 0%, #381a42 100%);
   text-align: center;
   position: relative;
   background-size: 20%, 20%, cover;
@@ -113,7 +115,7 @@ body {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 2fr 2fr;
-      grid-template-columns: 2fr 2fr;
+  grid-template-columns: 2fr 2fr;
   margin-bottom: 20px;
 }
 
@@ -145,11 +147,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
 }
 
 .mainBack .infoHeader .register p {
@@ -367,7 +369,7 @@ body {
   background: -webkit-gradient(linear, left top, right top, from(#ee0979), to(#ff6a00));
   background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
   -webkit-box-shadow: 0px 20px 30px rgba(179, 34, 31, 0.2);
-          box-shadow: 0px 20px 30px rgba(179, 34, 31, 0.2);
+  box-shadow: 0px 20px 30px rgba(179, 34, 31, 0.2);
   border-radius: 500px;
   max-width: 380px;
   min-width: 295px;
@@ -379,7 +381,7 @@ body {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr 1fr 2fr 4fr 1fr 2fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr 2fr 4fr 1fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 2fr 4fr 1fr 2fr;
   justify-items: start;
   padding-bottom: 20px;
   padding-left: 0;
@@ -413,12 +415,12 @@ body {
 
 .mainBack footer .footer-info li:last-child {
   -ms-grid-column-align: end;
-      justify-self: end;
+  justify-self: end;
 }
 
 .mainBack footer .footer-info li:nth-child(7) {
   -ms-grid-column-align: center;
-      justify-self: center;
+  justify-self: center;
 }
 
 @media screen and (max-width: 1439.98px) {
@@ -427,8 +429,11 @@ body {
     margin: 0 auto;
   }
   .mainBack {
-    background: url(../images/page1/Vector.png) left -153px top 29px, url(../images/page1/Vector_right.png) right -160px center, -webkit-gradient(linear, left top, left bottom, from(#2a1133), to(#381a42));
-    background: url(../images/page1/Vector.png) left -153px top 29px, url(../images/page1/Vector_right.png) right -160px center, linear-gradient(180deg, #2a1133 0%, #381a42 100%);
+    background: url(../images/page1/Vector.png) left -153px top 29px,
+      url(../images/page1/Vector_right.png) right -160px center,
+      -webkit-gradient(linear, left top, left bottom, from(#2a1133), to(#381a42));
+    background: url(../images/page1/Vector.png) left -153px top 29px,
+      url(../images/page1/Vector_right.png) right -160px center, linear-gradient(180deg, #2a1133 0%, #381a42 100%);
     background-size: 30%, 30%, cover;
     background-repeat: no-repeat;
   }
@@ -437,7 +442,7 @@ body {
 @media screen and (max-width: 1199.98px) {
   .mainBack footer .footer-info {
     -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     padding-bottom: 0;
   }
   .mainBack footer .footer-info {
@@ -445,14 +450,14 @@ body {
   }
   .mainBack footer .footer-info li:nth-child(5) {
     -ms-grid-column-align: end;
-        justify-self: end;
+    justify-self: end;
   }
   .mainBack footer .footer-info li:nth-child(6) {
     -ms-grid-column: 1;
     -ms-grid-column-span: 5;
     grid-column: 1 / span 5;
     -ms-grid-column-align: center;
-        justify-self: center;
+    justify-self: center;
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -461,7 +466,7 @@ body {
     -ms-grid-column-span: 5;
     grid-column: 1 / span 5;
     -ms-grid-column-align: center;
-        justify-self: center;
+    justify-self: center;
     margin-bottom: 10px;
   }
   .mainBack footer .footer-info li:nth-child(8) {
@@ -469,15 +474,15 @@ body {
     -ms-grid-column-span: 5;
     grid-column: 1 / span 5;
     -ms-grid-column-align: center;
-        justify-self: center;
+    justify-self: center;
   }
   .mainBack footer .footer-info li:nth-child(3) {
     -ms-grid-column-align: center;
-        justify-self: center;
+    justify-self: center;
   }
   .mainBack footer .footer-info li:nth-child(4) {
     -ms-grid-column-align: center;
-        justify-self: center;
+    justify-self: center;
   }
   .mainBack footer .footer-info li a {
     font-size: 12px;
@@ -530,7 +535,7 @@ body {
     font-size: 14px;
   }
   .mainBack .login_form .enter-name input {
-    /* padding: 23px 54px 23px 70px; */
+    padding: 23px 144px 23px 70px;
     max-width: 345px;
   }
   .mainBack .login_form .DOB {
@@ -563,6 +568,7 @@ body {
     padding: 23px 106px;
     max-width: 345px;
   }
+ 
 }
 
 @media screen and (max-width: 767.98px) {
@@ -576,18 +582,18 @@ body {
   }
   .mainBack .infoHeader {
     -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
   .mainBack .infoHeader .address {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   .mainBack .infoHeader .register {
     display: inline-block;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   .mainBack .infoHeader .address a {
     margin-top: 33px;
@@ -599,11 +605,12 @@ body {
   .mainBack footer .footer-info {
     padding-left: 0px;
     -ms-grid-columns: 2fr 3fr 2fr 3fr 4fr;
-        grid-template-columns: 2fr 3fr 2fr 3fr 4fr;
+    grid-template-columns: 2fr 3fr 2fr 3fr 4fr;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
+
 }
 
 @media screen and (max-width: 575.98px) {
@@ -620,8 +627,11 @@ body {
 
 @media screen and (max-width: 424.98px) {
   .mainBack {
-    background: url(../images/page1/Vector.png) left -224px top -160px, url(../images/page1/Vector_right.png) right -81px top 546px, -webkit-gradient(linear, left top, left bottom, from(#2a1133), to(#381a42));
-    background: url(../images/page1/Vector.png) left -224px top -160px, url(../images/page1/Vector_right.png) right -81px top 546px, linear-gradient(180deg, #2a1133 0%, #381a42 100%);
+    background: url(../images/page1/Vector.png) left -224px top -160px,
+      url(../images/page1/Vector_right.png) right -81px top 546px,
+      -webkit-gradient(linear, left top, left bottom, from(#2a1133), to(#381a42));
+    background: url(../images/page1/Vector.png) left -224px top -160px,
+      url(../images/page1/Vector_right.png) right -81px top 546px, linear-gradient(180deg, #2a1133 0%, #381a42 100%);
     background-size: 72%, 47%, cover;
     background-repeat: no-repeat;
   }
@@ -705,17 +715,17 @@ body {
   }
   .mainBack footer .footer-info {
     -ms-grid-columns: 2fr 2fr 2fr 2fr;
-        grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
   .mainBack footer .footer-info li:nth-child(5) {
     -ms-grid-column: 1;
     -ms-grid-column-span: 4;
     grid-column: 1 / span 4;
     -ms-grid-column-align: center;
-        justify-self: center;
+    justify-self: center;
     margin-top: 10px;
   }
   .mainBack footer .footer-info li:nth-child(6) {
@@ -729,8 +739,11 @@ body {
     padding-bottom: 15px;
   }
   .mainBack {
-    background: url(../images/page1/Vector.png) left -135px top 85px, url(../images/page1/Vector_right.png) right -57px top 546px, -webkit-gradient(linear, left top, left bottom, from(#2a1133), to(#381a42));
-    background: url(../images/page1/Vector.png) left -135px top 85px, url(../images/page1/Vector_right.png) right -57px top 546px, linear-gradient(180deg, #2a1133 0%, #381a42 100%);
+    background: url(../images/page1/Vector.png) left -135px top 85px,
+      url(../images/page1/Vector_right.png) right -57px top 546px,
+      -webkit-gradient(linear, left top, left bottom, from(#2a1133), to(#381a42));
+    background: url(../images/page1/Vector.png) left -135px top 85px,
+      url(../images/page1/Vector_right.png) right -57px top 546px, linear-gradient(180deg, #2a1133 0%, #381a42 100%);
     background-size: 75%, 47%, cover;
     background-repeat: no-repeat;
   }
